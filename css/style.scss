@@ -54,12 +54,12 @@ body {
   color: white;
 }
 
-.upcoming-events {
+.events {
   margin: 0 10%;
   padding-top: 60px;
 }
 
-.upcoming-events h1 {
+.events h1 {
   text-transform: uppercase;
 }
 
@@ -71,6 +71,11 @@ body {
 
 .event-card {
   margin: 20px;
+  color: $text-color;
+}
+.event-card a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .event-photo {
@@ -92,4 +97,9 @@ footer a {
   text-decoration: none;
   padding: 12px;
   font-size: 17px;
+}
+
+.view-select {
+  display: flex;
+  align-items: center;
 }

@@ -39,11 +39,11 @@ body {
   background-color: #4d6466;
   color: white; }
 
-.upcoming-events {
+.events {
   margin: 0 10%;
   padding-top: 60px; }
 
-.upcoming-events h1 {
+.events h1 {
   text-transform: uppercase; }
 
 .events-container {
@@ -52,7 +52,12 @@ body {
   justify-content: space-between; }
 
 .event-card {
-  margin: 20px; }
+  margin: 20px;
+  color: #222; }
+
+.event-card a {
+  text-decoration: none;
+  color: inherit; }
 
 .event-photo {
   width: 200px;
@@ -71,3 +76,7 @@ footer a {
   text-decoration: none;
   padding: 12px;
   font-size: 17px; }
+
+.view-select {
+  display: flex;
+  align-items: center; }
