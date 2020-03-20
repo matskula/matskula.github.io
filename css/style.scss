@@ -54,12 +54,12 @@ body {
   color: white;
 }
 
-.events {
+.events, .about, .contact {
   margin: 0 10%;
-  padding-top: 60px;
+  padding: 60px 0;
 }
 
-.events h1 {
+.events h1, .about h1, .contact h1 {
   text-transform: uppercase;
 }
 
@@ -100,6 +100,26 @@ footer a {
 }
 
 .view-select {
+  display: flex;
+  align-items: center;
+}
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-us article {
+  width: 66%;
+}
+
+.about-us img {
+  width: 300px;
+  height: 200px;
+}
+
+.contact-line {
   display: flex;
   align-items: center;
 }
