@@ -157,3 +157,16 @@ footer a {
 .login-form > * {
   margin-top: 20px;
 }
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info > * {
+  margin-top: 20px;
+}
+
+.user-info span button {
+  margin-left: 10px;
+}
