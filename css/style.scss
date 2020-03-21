@@ -147,3 +147,13 @@ footer a {
   display: flex;
   align-items: center;
 }
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form > * {
+  margin-top: 20px;
+}
