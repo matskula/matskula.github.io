@@ -54,13 +54,22 @@ body {
   color: white;
 }
 
-.events, .about, .contact {
+.container {
   margin: 0 10%;
   padding: 60px 0;
 }
 
-.events h1, .about h1, .contact h1 {
+.container h1 {
   text-transform: uppercase;
+}
+
+.event {
+  text-align: center;
+}
+
+.event img {
+  width: 400px;
+  height: 600px;
 }
 
 .events-container {
@@ -110,6 +119,12 @@ footer a {
   align-items: center;
 }
 
+.event-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .about-us article {
   width: 66%;
 }
@@ -117,6 +132,15 @@ footer a {
 .about-us img {
   width: 300px;
   height: 200px;
+}
+
+.event-info {
+  flex-basis: 600px;
+}
+
+.event-poster {
+  width: 400px;
+  height: 600px;
 }
 
 .contact-line {
