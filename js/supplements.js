@@ -1,7 +1,6 @@
-API_URL = 'http://4e22a5f2.ngrok.io/api/'
+API_URL = 'http://78.46.244.156/api/'
 
 window.onload = function () {
-    alert('yeah')
     let request = new XMLHttpRequest()
     request.open("GET", API_URL + "supplements", false);
     request.send();
