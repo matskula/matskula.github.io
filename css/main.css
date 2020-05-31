@@ -258,7 +258,10 @@ input[type=text] {
     margin-left: 1.5em;
 }
 
-.supplement:active {
+.supplement-active {
+    border-left: 3px solid black;
+    padding: 1em;
+    color: #1d2124;
     margin-left: 1.5em;
     background-image: linear-gradient(to right, #b477ff, white);
 }
