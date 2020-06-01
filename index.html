@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
     <title>Healthy-project</title>
     <meta charset="utf-8">
@@ -9,6 +8,11 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 
 <body>
@@ -75,26 +79,16 @@
     <div id="search-supplement">
         <div class="container">
             <h3>Пошук добавки</h3>
-            <div class="d-flex flex-row justify-content-center">
-                <div class="d-flex flex-column justify-content-center">
-                    <label>
-                        <input placeholder="Назва або Е-код" type="text">
-                    </label>
-                    <hr>
-                    <button class="search-button">Знайди</button>
-                </div>
+            <div class="d-flex flex-row justify-content-center" id="search-container">
+
             </div>
         </div>
     </div>
     <div id="search-by-photo">
         <div class="container">
             <h3>Аналіз фото</h3>
-            <div class="d-flex flex-row justify-content-center">
-                <div class="d-flex flex-column justify-content-center">
-                    <input type="file"><br>
-                    <hr>
-                    <button class="search-button-inverse">Проаналізуй</button>
-                </div>
+            <div class="d-flex flex-row justify-content-center" id="search-photo">
+
             </div>
         </div>
     </div>
@@ -102,7 +96,7 @@
         <div class="container">
             <div class="head_footer_bl">
                 <div class="social_btn">
-                    <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://t.me/project_healthy_bot" target="_blank"><i class="fab fa-telegram"></i></a>
                 </div>
             </div>
             <div class="bott_footer_bl"><p class="copy">©Healthy-project 2019-2020</p>
@@ -110,5 +104,5 @@
         </div>
     </footer>
 </body>
-
+<script src="js/index.jsx" type="text/babel"></script>
 </html>
